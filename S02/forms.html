@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="">
+    <h1>Sample Form</h1>
+
+    <!-- <input action=""> -->
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+            </p>
+
+            <p>
+                <label for="lname">First Name</label>
+                <input type="text" id="lname" name="lname">
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </p>
+
+    </form>
+
+        <h1>Survey form</h1>
+        <form action="">
+
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname">
+            </p>
+            
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname">
+            </p>
+
+            <p>
+                
+                <label for="emailAdd">Email Address:</label>
+                <input type="email" name="emailAdd" id="emailAdd">
+            </p>
+
+                <label for="bNum">Batch Number:</label>
+                <select name="bNum" id="bNum">
+                <option value="select">Select</option>
+                <option value="b26">Batch 26</option>
+                <option value="b27">Batch 27</option>
+                <option value="b28">Batch 28</option>
+            </select>
+            
+                    
+            <p>
+                <label for="instructor">Instructor</label>
+                <input type="text" name="instructor" id="instructor">
+
+            </p>
+
+            <p>
+                <label for="comments">Comments for your instructor</label>
+                <textarea name="comments" id="" cols="30" rows="10" placeholder="Type full comment here."></textarea>
+            </p>
+
+            <p>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </p>
+            
+                What do you like about our Bootcamp?
+             <p>
+                <input type="checkbbox"  id="classroom" value="classroom"> <label for="classroom">Classroom Experience</label>
+
+            </p>
+
+        </form>
+</body>
+</html>

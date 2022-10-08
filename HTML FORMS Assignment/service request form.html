@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Request Form</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+
+            <body>
+
+                <div>  
+
+                    <form action="">
+
+                        <h1>ABC Company IT Service Request Form</h1>
+
+                            <p>
+
+                                <label for="fname">Firt Name:</label>
+                                <input type="text" id="fname" name="fname">
+
+                            </p>    
+
+                            <p>
+
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname">
+
+                            </p>    
+
+                            <p>
+
+                                <label for="emailAddress">Email Address:</label>
+                                <input type="email" id="emailAddress" name="emailAddress">
+
+                            </p>    
+
+                            <p>
+
+                                <label for="contactNumber">Contact Number:</label>
+                                <input type="number" id="contactNumber" name="contactNumber" placeholder="Phone or mobile number">
+
+                            </p>    
+
+                            <p>
+
+                                <label for="Onsite">Onsite</label>
+                                <input type="radio" id="Onsite" name="Onsite">
+                                <label for="workfromHome">Work from home</label>
+                                <input type="radio" id="workfromHome" name="workfromHome">
+
+                           </p>
+
+                                <label for="location">Location:</label>
+                                    <input type="text" id="location" name="location" maxlength="500" size="80px">
+
+                                        <h5>
+                                            For onsite, please state your Workstation No., Department, Floor and Building
+                                            <br>
+                                            For work from home, please complete your address and include a landmark nearest to your location.
+
+                                        </h5>
+
+                            <p>
+
+                                <label for="requestoptions">Request Type Option:</label>
+
+                                    <select name="requestoptions" id="requestoptions">
+
+                                        <option value="select">Select</option>
+                                        <option value="desktop/laptopsetup">Desktop/Laptop Setup</option>
+                                        <option value="desktop/laptopsupport">Desktop/Laptop Support</option>
+                                        <option value="desktop/laptopmaintenance">Desktop/Laptop Maintenance</option>
+                                        <option value="softwareinstallation">Software Installation</option>
+                                        <option value="softwaresupport">Software Support</option>
+                                        <option value="computerperipheralssetup">Computer Peripherals Setup</option>
+                                        <option value="peripheralstroubleshooting">Peripherals Troubleshooting</option>
+                                        <option value="computerperipheralsmaintenance">Computer Peripherals Maintenance</option>
+
+                                    </select>
+
+                            </p>
+
+                            <p>
+
+                                <label for="requestdescription">Request Description:</label>
+                                <input type="text" id="requestdescription" name="requestdescription" placeholder="Full description of service needed" size="80px">
+
+                            </p>  
+
+                            <p>
+
+                                <label for="photoscreenshot">Upload photo or screenshot</label>
+                                <input type="file">
+
+                            </p>  
+
+                            <form action="">
+
+                                <a href="login page.html">
+                                    <input type="button" value="Submit" onclick="alert ('Thanks for submitting your request')">
+                                </a> 
+                                    <input type="button" value="Clear">
+     
+                             </form>
+
+                        </div>    
+                            
+                    </form>
+                
+            </body>
+
+
+</html>

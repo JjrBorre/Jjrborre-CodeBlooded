@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Business-High-Resolution-Wallpapers-1920x1080.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+ div{
+
+    
+    width: fit-content;
+    text-align: left;
+    color: rgb(9, 12, 218);
+    background-color: aqua;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+    
+    
+}
+

@@ -1,0 +1,101 @@
+/*Universal selector*/
+
+* {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    color: brown;
+}
+
+/*ID Selector*/
+
+#title-1 {
+
+    color: palegreen;
+}
+
+/*Class Selector*/
+
+.title-2 {
+
+    color:violet;
+    text-align: center;
+}
+
+/*Attribute Selector*/
+
+[type="text"] {
+    background-color: aquamarine;
+
+}
+
+/*Combinator Selector*/
+
+/*Descendant Selector
+-selects/targets "all elements" that matches the specified element
+
+Syntax: first element child element {
+    property: value
+}
+*/
+
+/* div p {
+    background-color: red;
+} */
+
+/* Child Selector 
+- selects/targets "all" elements that are all "children" of a specified element
+*/
+
+/* div > p {
+
+    background-color: chocolate;
+} */
+
+/*Adjacent Sibling Selector
+(+)
+Selects/targets an element that is directly after the first selector
+*/
+
+/* p + p {
+    background-color: maroon;
+} */
+
+/* div + p {
+    background-color: blueviolet;
+} */
+
+
+/*General Sibling Selector (~)*/
+
+/* p ~ p {
+    background-color: fuchsia;
+} */
+
+@media only screen and (min-width: 500px) {
+    .screen {background-color: blue;
+    }
+/*
+Pseudo Class
+Selector: pseudo-class {property:value}
+*/
+
+/*Unlisted Link*/
+
+a:link {
+    color:red;
+}
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color:orange;
+}
+
+a:active {
+    color:dodgerblue;
+}
