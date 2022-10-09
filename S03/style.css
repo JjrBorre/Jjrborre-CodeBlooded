@@ -73,9 +73,25 @@ Selects/targets an element that is directly after the first selector
     background-color: fuchsia;
 } */
 
+/*
+Medium devices (landscape tablet, 500px and up)
+*/
 @media only screen and (min-width: 500px) {
-    .screen {background-color: blue;
-    }
+    .screen {
+        background-color: rgb(235, 37, 169);
+}
+
+/*
+Large devices (laptops and desktops, 900px and up)
+*/
+
+
+@media only screen and (min-width: 900px) {
+    .screen {
+        background-color: blue;
+}
+
+
 /*
 Pseudo Class
 Selector: pseudo-class {property:value}
@@ -98,4 +114,46 @@ a:hover {
 
 a:active {
     color:dodgerblue;
+}
+
+/*Psuedo Elements
+
+-used to style a specific part of an element
+
+syntax: selector:: speudo-element {property:value}
+
+*/
+
+/* First line - when we shrink or resize web pages, the first line of a sentence will be affected */
+
+/* p::first-line {
+
+    color:red;
+    font-variant: small-caps;
+
+} */
+
+p::first-letter {
+    color: brown;
+    font-size: 200$;
+}
+
+/* manipulate pic in CSS */
+
+#dreamcar img{
+    width: 10%;
+    height: 10%;
+    border-radius: 4px;
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+ul > li {
+    letter-spacing: 4px;
+
+
 }

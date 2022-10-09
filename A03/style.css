@@ -1,0 +1,57 @@
+.p1a {
+    background-color: green;
+}
+
+.p2a {
+    background-color: red;
+}
+
+.p3a {
+    background-color: blue;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#fh2 {
+    text-transform: uppercase;
+}
+
+#div2 {
+    border: 2px solid black;
+
+}
+
+ul + li {
+
+    list-style-type: square;
+}
+
+li + li {
+
+    list-style-type: square;
+}
+
+
+div img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+
+}
+
+#div3 ~ p {
+    text-align: center;
+}
+
+#div2 > li{
+    letter-spacing: 10px;
+
+}
