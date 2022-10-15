@@ -1,0 +1,45 @@
+
+.div1 {
+    border: 3px solid black;
+    padding: 150px;
+    padding-bottom: 850px;
+    padding-top: 0;
+    left: 100px;
+    margin-top: 20px;
+    position: absolute;
+    
+}
+
+.div2 {
+    border: 3px solid black;
+    padding: 150px;
+    padding-bottom: 850px;
+    padding-top: 0;
+    left: 500px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.div3 {
+    border: 3px solid black;
+    padding: 150px;
+    padding-bottom: 850px;
+    padding-top: 0;
+    left: 900px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+
+.div4 {
+    border: 3px solid black;
+    padding: 150px;
+    padding-bottom: 850px;
+    padding-top: 0;
+    left: 1300px;
+    margin-top: 20px;
+    position: absolute;
+
+}

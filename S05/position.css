@@ -1,0 +1,58 @@
+.staticPosition {
+        border: 2px solid rgb(150, 130, 238);
+}
+
+/*top bottom, left and right are not working because this is set as default.*/
+
+.relativePosition {
+    position: relative;
+    border: 2px solid blue;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+img .staticPosition {
+    border: 3px solid pink;
+    position: static;
+
+    /*even it is not declared it will still show same position because it is default*/
+}
+
+.snoopyFixed {
+    position: fixed;
+    top: 500px;
+    margin-left: 600px;
+    height: auto;
+    width: 150px;
+    border: 2px solid gold;
+}
+
+/*images*/
+
+.relativePosition {
+    position: relative;
+    border: 2px solid orange;
+    left: 150px;
+}
+
+.absolutePosition{
+    position: absolute;
+    border: 2px solid lightgreen;
+    width: 300px;
+    top: 290px;
+
+}
+
+.fixedPosition {
+    position: fixed;
+    border: 2px solid red;
+    top: 360px;
+}
+
+.buttonClick {
+    position: fixed;
+    margin-left: 300px;
+}

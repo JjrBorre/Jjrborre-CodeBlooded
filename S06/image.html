@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Responsiveness</title>
+    <link rel="stylesheet" href="image.css">
+
+</head>
+
+    <body>
+
+            <h1>Image Responsiveness</h1>
+
+                <img src="alak.png" alt="alak" id="responsive" />
+
+                    <!-- Make pic modal and responsive         -->
+
+            <div id="myModal" class="modal">
+
+                <span class="close">& times</span>
+                <img class="modal-content" id="img01">
+
+                    <div id="caption"></div>
+                
+            </div>
+
+            <script>
+
+                    // 1. Get the modal - pop up effect on the screen
+
+                        var modal = document.
+                        getElementById ("myModal");
+
+
+                    // 2. Get the image and insert it insider the modal. use the "alt" text asa caption
+
+                        var img = document.
+                        getElementById ("responsive");
+
+                        var modalImg = document.
+                        getElementById ("img01");
+
+                    // Initialize the var img 
+                    
+                        img.onclick = function ()
+                            {
+                                modal.style.display = "block";
+                                modalImg.src = this.
+                                src;
+                                captionText.innerHTML = this.alt;
+                            }
+                    
+                    // 3. Get the Span element that closes the modal
+
+                        var span = document.
+                        getElementByClassName
+                        ("close") [0];
+
+                    // 4. When the user clicks on span x close the modal
+
+                        span.onclick = function ()
+                            {
+                                modal.style.display = "none";
+                            }
+
+            </script>
+
+    </body>
+
+</html>
