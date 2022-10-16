@@ -1,0 +1,94 @@
+div {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    
+
+    
+    
+}
+
+div:hover {
+    background-color: antiquewhite;
+}
+
+
+
+
+.div1 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    padding: 20px;
+    
+}
+
+.div2 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+
+.div3 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+
+.div4 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+.div5 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+
+@media (min-width: 1025px){
+
+        .div1, .div2, .div3, .div4, .div5{
+
+                width: 15%;
+                
+                
+        }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+            div {
+                float: none;
+                width:20%;
+                margin:5px;
+        
+            }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+               div {
+
+                float: none;
+                width: 20%;
+
+               } 
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    div {
+
+     float: none;
+     width: 20%;
+
+    } 
+
+}
