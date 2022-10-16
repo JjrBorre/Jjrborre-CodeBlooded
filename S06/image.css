@@ -22,13 +22,13 @@ img {
 .modal {
     display: none; /*hidden as default*/
     position: fixed; /*stay in place*/
-    z-index: 1; /*will sit on top*/
+    z-index: 1; /*will sit on top / stack order of an element. works when position elements and flex items are present*/
     padding-top: 100px; /*location of the box*/
     left: 0;
     top: 0;
     width: 100%; /*Full width*/
     height: 100%;
-    overflow: auto; /*enables scroll if needed*/
+    overflow: auto; /*enables scroll if needed / clips the content or add scrolls based on the elements declared in the overflow*/
     background-color: rgb(0,0,0); /*fallback colors*/
     background-color: rgba(0, 0, 0, 0.9); /*black with opacity*/
 
@@ -65,17 +65,28 @@ img {
     animation-duration: 0.6s;
 }
 
+
+/* keyframe syntax
+@keyframes animationname P+{
+    keyframe-selector
+    {css-style;}
+} 
+
+
+@keyframe - rule to specify animation code.
+-animation is gradually*/
+
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0))}
     to {-webkit-transform: scale(1);}
 }
 @keyframes zoom {
-    from{
+    from{ /*beginning of animation*/
         transform: scale(0);
     }
-        to
+        to /*end of animation/complete*/
         {
-        transform: scale(1);
+        transform: scale(1); /*2d/3d transformation of an event*/
     }    
 }    
 /*close button*/
