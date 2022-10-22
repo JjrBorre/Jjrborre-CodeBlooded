@@ -1,0 +1,38 @@
+@mixin colors ($colors:blanchedalmond)
+{
+            background-color: $colors;
+            border: 3px;
+
+}
+
+
+
+.table {
+    @include colors;
+}
+
+
+@mixin theme ($theme:darkgrey)
+{
+    background-color: $theme;
+    box-shadow: 0 0 1px rgba($theme);
+    color: #fff;
+}
+    
+
+.text-primary {
+
+    @include theme;
+}
+
+
+// Define two mixins in the arguments
+
+@mixin bordered ($colors, $width) {
+    border: $width solid $colors;
+    
+}
+
+.myArticle {
+    @include bordered (blue, 1px);
+}
